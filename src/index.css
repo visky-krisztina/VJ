@@ -42,8 +42,6 @@ html {
   --red-dark: #820000;
   --beige: #f2deba;
   --green-dark: #166b1b;
-
-  line-height: 1.5;
 }
 
 body {
@@ -51,6 +49,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Georgia, serif;
+  line-height: 1.5;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
