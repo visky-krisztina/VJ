@@ -19,7 +19,7 @@ const Landing = () => {
         toggleSidebar,
       }}
     >
-      <div className="page" id="/">
+      <div className="page">
         <BigSidebar />
 
         <div className="dashboard-page">
