@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 :root {
   /* colors */
   --primary-50: #f2d7d7;
@@ -42,14 +38,6 @@ html {
   --red-dark: #820000;
   --beige: #f2deba;
   --green-dark: #166b1b;
-}
-
-body {
-  background-color: white;
-  margin: 0;
-  padding: 0;
-  font-family: Georgia, serif;
-  line-height: 1.5;
 }
 
 @media screen {
