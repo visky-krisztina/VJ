@@ -1,0 +1,22 @@
+#aboutTheJourney {
+  height: auto !important;
+  background-color: #f8f9fa !important;
+}
+
+.third-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 2rem;
+}
+
+.youtube-wrapper {
+  margin: 0 auto !important;
+}
+
+@media (max-width: 992px) {
+  .youtube-wrapper {
+    width: 30rem;
+  }
+}

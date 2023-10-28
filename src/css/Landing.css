@@ -1,0 +1,171 @@
+.page {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.container {
+  height: 100vh;
+  padding: 1rem 5rem 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.text-light {
+  color: #dee3e4 !important;
+  opacity: 0.4;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  font-size: 8.25rem !important;
+  letter-spacing: 1rem;
+}
+
+.text-p {
+  font-weight: 600 !important;
+  font-size: 2.25rem !important;
+  opacity: 1;
+  line-height: 1.5 !important;
+  margin-bottom: 0 !important;
+  position: relative;
+  top: -8rem;
+}
+
+.heading-separator-line {
+  margin-right: auto !important;
+  margin-left: auto !important;
+  width: 3rem;
+  opacity: 1;
+  border-color: #20c997 !important;
+  border-bottom: 3px solid #dee2e6;
+  display: block !important;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -2rem;
+}
+
+.highlighted-text {
+  color: var(--green-dark);
+  font-size: 2rem;
+}
+
+.left,
+.right {
+  padding: 0 2rem 0 1rem;
+}
+
+.left {
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 2rem;
+  font-size: 1.5rem;
+}
+
+.right {
+  text-align: justify;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 2rem;
+  font-size: 1.5rem;
+}
+
+.left img {
+  width: 25rem;
+  height: 30rem;
+  margin-top: -2rem;
+}
+
+.bigger-p {
+  font-size: 1.8rem;
+  text-align: justify;
+}
+
+.small-p {
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.title {
+  text-align: left;
+  font-weight: 600 !important;
+  font-size: 2.25rem !important;
+  opacity: 1;
+  line-height: 1.5 !important;
+  position: relative;
+}
+
+.italic {
+  font-style: italic;
+  font-family: Display Flex, Playfair-Display-Fallback, serif;
+}
+
+.heading-separator-line-left {
+  width: 3rem;
+  opacity: 1;
+  border-color: #20c997 !important;
+  border-bottom: 3px solid #dee2e6;
+  display: block !important;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.quoteAuthor {
+  text-align: center !important;
+  padding: 1rem 0;
+}
+
+@media (max-width: 992px) {
+  .page {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    width: 100%;
+    height: auto;
+    padding: 1rem 5rem;
+  }
+
+  .text-light {
+    font-size: 3rem !important;
+    letter-spacing: 0.2rem;
+    text-shadow: 1px 1px 2px grey;
+  }
+
+  .text-p {
+    font-size: 1.25rem !important;
+    top: -3rem;
+  }
+
+  .second-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: auto !important;
+    margin-top: 0.5rem;
+  }
+  .left img {
+    margin: 0.5rem 0 3rem 0;
+  }
+  .right img {
+    margin: 1rem 0 3rem 0;
+  }
+
+  .bigger-p {
+    font-size: 1.4rem;
+  }
+
+  .small-p {
+    font-size: 1rem;
+  }
+  .title {
+    font-size: 2rem !important;
+  }
+}
